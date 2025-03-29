@@ -6,5 +6,5 @@ const people = [
   ];
   
   const filteredNames = people.filter(person => person.gender !== 'female').map(person => person.name);
-  console.log(filteredNames);
+  
   
